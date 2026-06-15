@@ -1,0 +1,14 @@
+# Build artifacts
+build/
+
+# Log files
+log/
+
+# Documentation
+docs/
+CLAUDE.md
+
+# Compiled binaries
+test.exe
+test
+libresmgmt.so

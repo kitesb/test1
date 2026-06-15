@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sudo dnf *)",
+      "Bash(dnf install *)",
+      "Bash(rpm -q gcc make)",
+      "Read(//etc/**)",
+      "Read(//usr/bin/**)",
+      "Read(///wsl.localhost/rhel9wsl//**)",
+      "Bash(gcc --version)",
+      "Bash(make --version)",
+      "Bash(wsl *)",
+      "Bash(g++ --version)",
+      "Bash(gdb --version)",
+      "Bash(cmake --version)",
+      "Bash(ls *)",
+      "Bash(cd \"\\\\\\\\wsl.localhost\\\\rhel9wsl\\\\home\\\\even\\\\workfile\\\\resmgmt\")",
+      "Bash(gcc -fsyntax-only -I ResMgmt/inc -I ResMgmt/soc -I third_party/cjson/include ResMgmt/src/JsonParser.c)",
+      "Bash(gcc -fsyntax-only -I ResMgmt/inc -I ResMgmt/soc -I third_party/cjson/include ResMgmt/src/SocketParser.c)",
+      "Bash(gcc -fsyntax-only -I ResMgmt/inc -I ResMgmt/soc ResMgmt/soc/soc_core.c)",
+      "Bash(gcc -fsyntax-only -I ResMgmt/inc -I ResMgmt/soc ResMgmt/src/HashTable.c)",
+      "Bash(ls -la \\\\\\\\wsl.localhost\\\\rhel9wsl\\\\home\\\\even\\\\workfile/)",
+      "Read(//mnt/c/**)",
+      "mcp__fuck-u-code__analyze",
+      "Bash(mkdir -p \\\\\\\\wsl.localhost\\\\rhel9wsl\\\\home\\\\even\\\\workfile\\\\resmgmt\\\\ResMgmt\\\\io)",
+      "Bash(mv \\\\\\\\wsl.localhost\\\\rhel9wsl\\\\home\\\\even\\\\workfile\\\\resmgmt\\\\ResMgmt\\\\log\\\\log_mgmt.c \\\\\\\\wsl.localhost\\\\rhel9wsl\\\\home\\\\even\\\\workfile\\\\resmgmt\\\\ResMgmt\\\\io\\\\log_mgmt.c)",
+      "Bash(mv \\\\\\\\wsl.localhost\\\\rhel9wsl\\\\home\\\\even\\\\workfile\\\\resmgmt\\\\ResMgmt\\\\log\\\\log_mgmt.h \\\\\\\\wsl.localhost\\\\rhel9wsl\\\\home\\\\even\\\\workfile\\\\resmgmt\\\\ResMgmt\\\\io\\\\log_mgmt.h)",
+      "Bash(rmdir \\\\\\\\wsl.localhost\\\\rhel9wsl\\\\home\\\\even\\\\workfile\\\\resmgmt\\\\ResMgmt\\\\log)",
+      "Bash(wslpath -w \"/home/even/workfile/resmgmt/ResMgmt/socket_json_parse\")",
+      "Bash(git config *)"
+    ]
+  }
+}
