@@ -1,5 +1,5 @@
 # ============================================================================
-# 只保留 resmgmt/ResMgmt/ 源码，其他全部排除
+# 只保留 resmgmt/ResMgmt/ 源码 + 测试程序 + makefile
 # ============================================================================
 
 # 排除一切
@@ -11,7 +11,18 @@
 # 但保留 resmgmt 目录结构
 !resmgmt/
 resmgmt/*
+
+# --- 保留项 ---
+
+# 核心源码
 !resmgmt/ResMgmt/
 
-# 保留 ResMgmt 下所有内容
-!resmgmt/ResMgmt/**
+# 测试程序
+!resmgmt/resource_tests/
+!resmgmt/socket_tests/
+!resmgmt/test_session.c
+!resmgmt/test_socket_dump.c
+!resmgmt/tst.c
+
+# 构建
+!resmgmt/makefile
